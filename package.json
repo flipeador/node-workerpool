@@ -1,0 +1,22 @@
+{
+  "name": "@flipeador/node-workerpool",
+  "description": "Create a pool of workers and execute a function or file in worker threads and child processes.",
+  "version": "1.0.0",
+  "author": "Flipeador (https://github.com/flipeador)",
+  "repository": "github:flipeador/node-workerpool",
+  "license": "Apache-2.0",
+  "main": "./src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "globals": "^13.24.0"
+  },
+  "dependencies": {
+    "@flipeador/js-eventemitter": "github:flipeador/js-eventemitter#semver:^1.0.0",
+    "@flipeador/js-promise": "github:flipeador/js-promise#semver:^1.0.0"
+  }
+}
